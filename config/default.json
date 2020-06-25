@@ -1,0 +1,4 @@
+{
+    "port_server":"5000",
+    "URI":"mongodb+srv://avel:1234512345@cluster0-xz0iu.azure.mongodb.net/todoer?retryWrites=true&w=majority"
+}

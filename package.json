@@ -1,0 +1,28 @@
+{
+  "name": "server_for_todoer",
+  "version": "1.0.0",
+  "description": "Study Project",
+  "main": "app.js",
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.19"
+  },
+    "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run start\""
+  },
+  "keywords": [
+    "Express",
+    "rect",
+    "redux"
+  ],
+  "author": " <Korban Vitaliy>",
+  "license": "ISC"
+}
